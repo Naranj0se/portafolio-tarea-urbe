@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+
+body {
+  background-color: #7fa0cc;
+  font-family: "Share Tech", sans-serif;
+  margin: 0;
+  color: #ffffff;
+}
+
+nav {
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  background-color: #385da5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+  height: 64px;
+}
+
+.footer {
+  display: flex;
+  background-color: #000000;
+  justify-content: space-between;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 12px 32px;
+}
+
+li {
+  list-style: none;
+  transition: background-color 0.2s ease-out;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+li:hover {
+  background-color: #333333;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.main-section h1 {
+  font-size: 64px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.main-section h3 {
+  width: 85%;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.main-section figure {
+  padding-top: 64px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.main-section figure img {
+  border-radius: 100%;
+  width: 35vh;
+}
+
+.main-section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-section {
+  background-image: url("../../public/img/byreverendopsi.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduccion {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding: 12px;
+}
+
+.introduccion figure {
+  height: fit-content;
+  background-color: #292929;
+  border-radius: 4px;
+  padding: 18px;
+  padding-bottom: 38px;
+  margin: 0;
+}
+
+.introduccion figure p {
+  margin-bottom: 28px;
+}
+
+.introduccion figure a {
+  list-style: none;
+  background-color: #3a3a3a;
+  transition: background-color 0.2s ease-out;
+  padding: 14px;
+  border-radius: 12px;
+}
+
+.introduccion figure a:hover {
+  background-color: #555555;
+}
+
+.info-section {
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+
+.info-section section {
+  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.info-section section p {
+  margin: 0;
+  text-align: left;
+}
+
+.info-section section img {
+  width: 50%;
+  border-radius: 8px;
+}
+
+.infoCard {
+  text-align: left;
+  background-color: #1c1c1c; /* Color de las tarjetas */
+  color: #ecf0f1;
+  padding: 48px;
+  border-radius: 8px; /* Bordes más suaves */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s; /* Agrega una transición de transformación */
+  cursor: pointer;
+  width: 80%;
+  cursor: auto;
+}
+
+.infoCard p {
+  width: 100%;
+}
+
+.infoCard img {
+  margin-top: 32px;
+}
+
+.tecnologias {
+  display: flex;
+  gap: 20px;
+}
+
+.tecnologias figure {
+  width: 55px;
+  background-color:#333333;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.tecnologias figure img {
+  width: 80%;
+}
+
+.tecnologias figure h2 {
+  text-align: center;
+}
+
+.linux {
+  background-color: #333333;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.linux div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+}
+
+.linux div p {
+  font-size: 24px;
+}
+
+.encryptor {
+  background-image: url("../../public/img/encryptor.png");
+  background-size: cover;
+}
+
+.tonyslayer {
+  background-image: url("../../public/img/tonyslayer.png");
+  background-size: cover;
+}
+
+.modapage {
+  background-image: url("../../public/img/modapage.png");
+  background-size: cover;
+}
+
+.softwarelibre {
+  background-image: url("../../public/img/softwarelibre.png");
+  background-size: cover;
+}
+
+.proyectos figure {
+  width: 70vw;
+  height: 50vh;
+  border-radius: 8px;
+}
+
+.proyectos figure h2 {
+  margin-top: 0;
+  background-color: #000000;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 8px;
+}
+
+.proyectos figure p {
+  margin-top: 0;
+  background-color: #000000ab;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 8px;
+}
+
+.fondoproyecto {
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.fondoproyecto > div {
+  width: 100%;
+  height: 80%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.botonera {
+  display: flex;
+  margin-top: 18px;
+  gap: 12px;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 48px;
+  border-radius: 5px;
+  background-color: #292929;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 12px;
+  background-color: #120ece;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bolder;
+  transition: background-color 0.2s ease-out;
+}
+
+button:hover {
+  background-color: #3a3a3a;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+}
+
+.redes img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 769px) {
+  nav {
+    font-size: 14px;
+    gap: 8px;
+  }
+
+  .info-section section img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  form {
+    width: 70%;
+  }
+}
